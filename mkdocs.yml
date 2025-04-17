@@ -1,17 +1,23 @@
-site_name: RiskLink AI Risk Assessment Chat Bot Docs
+site_name: AI Risk Assessment Chat Bot Documentaion
 site_url: https://sitename.example
 theme:
   name: material
+  features:
+    - content.code.copy
+    - search.suggest
+    - navigation.footer
   font:
     code: Red Hat Mono
+  logo: assets/risklink_logo.svg
+  favicon: assets/risklink_favicon.png
   palette: 
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-      primary: blue
-      accent: light green
+      primary: white
+      accent: light blue
 
     # Palette toggle for dark mode
     - scheme: slate
@@ -20,4 +26,24 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: pink
-  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search
+      
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/sylvexxter/realtime-demo-risklink
+    - icon: fontawesome/brands/github-alt
+      link: https://trayjames.github.io/RiskLinkDocs/
