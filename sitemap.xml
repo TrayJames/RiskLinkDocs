@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sitename.example/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Agents/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/BackgroundEscalation/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/GettingStarted/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/GuardRails/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/RiskAssesmentRecording/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Tools/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+</urlset>
