@@ -1,0 +1,23 @@
+site_name: RiskLink AI Risk Assessment Chat Bot Docs
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    code: Red Hat Mono
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: blue
+      accent: light green
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: blue
+      accent: pink
+  
